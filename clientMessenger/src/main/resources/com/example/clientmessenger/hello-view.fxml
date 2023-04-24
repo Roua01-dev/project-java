@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="chat_form" prefHeight="562.0" prefWidth="902.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clientmessenger.HelloController">
+
+         <children>
+            <TextField fx:id="chat_txt_field" layoutX="242.0" layoutY="451.0" prefHeight="33.0" prefWidth="348.0" styleClass="textfield" />
+            <Button fx:id="chat_btnSend" layoutX="590.0" layoutY="452.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="60.0" styleClass="btn" text="Send" />
+         <ScrollPane fx:id="chat_Sc_pane" layoutX="248.0" layoutY="112.0" prefHeight="339.0" prefWidth="406.0">
+
+         <content>
+            <VBox fx:id="chat_vbox_msg" layoutX="198.0" layoutY="78.0" prefHeight="339.0" prefWidth="406.0" />
+
+      </content>
+   </ScrollPane>
+             <Label layoutX="198.0" layoutY="34.0" prefHeight="37.0" prefWidth="376.0" text="                       Gym's Messenger" textAlignment="CENTER" textFill="#4f619e">
+                 <font>
+                     <Font size="20.0" />
+                 </font>
+             </Label>
+   </children>
+</AnchorPane>
